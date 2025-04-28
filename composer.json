@@ -23,7 +23,7 @@
             "name": "Marco Colia",
             "email": "info@justoverclock.it",
             "role": "Developer"
-        },
+        }
 
     ],
     "autoload": {
