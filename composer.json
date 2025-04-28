@@ -1,5 +1,5 @@
 {
-    "name": "justoverclock/flarum-ext-welcomebox",
+    "name": "emcado/welcomebox",
     "description": "Add a Welcome Box for flarum, different for guest and registered users.",
     "keywords": [
         "flarum"
@@ -11,10 +11,20 @@
     },
     "authors": [
         {
+            "name": Emcado",
+            "email": "contact@emcado.com",
+        },
+        {
+            "name": "Jake Wilson",
+            "email": "jake@emcado.com",
+            "role": "Developer"
+        },
+        {
             "name": "Marco Colia",
             "email": "info@justoverclock.it",
             "role": "Developer"
-        }
+        },
+
     ],
     "autoload": {
         "psr-4": {
@@ -23,11 +33,11 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "WelcomeBox",
+            "title": "Welcome Box",
             "category": "feature",
             "icon": {
-                "name": "fas fa-user-tie",
-                "backgroundColor": "green",
+                "name": "fas fa-handshake",
+                "backgroundColor": "#E7672E",
                 "color": "white"
             }
         },
